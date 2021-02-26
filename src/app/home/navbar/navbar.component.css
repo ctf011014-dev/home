@@ -1,3 +1,59 @@
 .backgroup {
     color: white;
+    margin: 5px;
 }
+    
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  
+  }
+
+  .columnRight {
+    float: right;
+    width: 33.33%;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
+
+  .cart {
+      width: 30px;
+      height: 30px;
+      
+  }
+
+  .logo {
+    width: 150px;
+    height: 70px;
+    border-radius: 5px;
+  }
+  

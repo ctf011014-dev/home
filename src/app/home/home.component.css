@@ -1,28 +1,33 @@
 /* Style the content */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: rgb(58,58,58);
-color: white;
-margin: 0;
-padding: 0;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
   overflow: hidden;
     background-color: red;
-    padding: 10px;
-    text-align: center;
-    height: 100px; /* Should be removed. Only for demonstration */
+    padding: 5px;
+  
+    height: 170px; /* Should be removed. Only for demonstration */
+
   }
 .topbanner {
-  overflow: hidden;
-    background-color: blue;
+    overflow: hidden;
     padding: 10px;
     text-align: center;
-    height: 50px; /* Should be removed. Only for demonstration */
+    height: 150px; /* Should be removed. Only for demonstration */
 }
 .category {
-    background-color: green;
+    
     padding: 10px;
     text-align: center;
-    height: 50px; /* Should be removed. Only for demonstration */
+    height: 150px; /* Should be removed. Only for demonstration */
 }
